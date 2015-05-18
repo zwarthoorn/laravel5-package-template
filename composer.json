@@ -1,12 +1,12 @@
 {
-  "name": "vendor/package",
-  "description": "",
+  "name": "zwarthoorn/admin",
+  "description": "a test admin to be inproved",
   "keywords": [],
   "homepage": "",
   "license": "MIT",
   "authors": [
     {
-      "name": "",
+      "name": "zwarthoorn",
       "email": ""
     }
   ],
