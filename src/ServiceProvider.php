@@ -48,7 +48,7 @@ class ServiceProvider extends LaravelServiceProvider {
 
     private function handleConfigs() {
 
-        $configPath = __DIR__ . '/../config/packagename.php';
+        $configPath = __DIR__ . '/../config/admincore.php';
 
         $this->publishes([$configPath => config_path('packagename.php')]);
 
