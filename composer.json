@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Vendor\\Package\\": "src/"
+      "Zwarthoorn\\Admin\\": "src/"
     }
   },
   "minimum-stability": "dev"
