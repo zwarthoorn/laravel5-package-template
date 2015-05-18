@@ -1,4 +1,4 @@
-<?php namespace Vendor\Package;
+<?php namespace Zwarthoorn/Admin;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
