@@ -1,4 +1,4 @@
-<?php namespace Zwarthoorn\Admin;
+<?php namespace Zwarthoorn\Admincore;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
