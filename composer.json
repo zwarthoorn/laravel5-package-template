@@ -1,6 +1,6 @@
 {
-  "name": "zwarthoorn/admincore",
-  "description": "a test admin to be inproved",
+  "name": "zwarthoorn/blog",
+  "description": "blog module",
   "keywords": [],
   "license": "MIT",
   "authors": [
@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Zwarthoorn\\Admincore\\": "src/"
+      "Zwarthoorn\\Blog\\": "src/"
     }
   },
   "minimum-stability": "dev"
