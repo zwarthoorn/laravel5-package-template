@@ -1,4 +1,4 @@
-<?php namespace Zwarthoorn/Admin;
+<?php namespace Zwarthoorn\Admin;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
@@ -18,7 +18,7 @@ class ServiceProvider extends LaravelServiceProvider {
      */
     public function boot() {
 
-        $this->handleConfigs();
+        //$this->handleConfigs();
         // $this->handleMigrations();
         // $this->handleViews();
         // $this->handleTranslations();
