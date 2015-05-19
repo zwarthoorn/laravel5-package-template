@@ -1,4 +1,4 @@
-<?php namespace Zwarthoorn\Admincore;
+<?php namespace Zwarthoorn\Blog;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
@@ -48,11 +48,11 @@ class ServiceProvider extends LaravelServiceProvider {
 
     private function handleConfigs() {
 
-        $configPath = __DIR__ . '/../config/admincore.php';
+        $configPath = __DIR__ . '/../config/blog.php';
 
-        $this->publishes([$configPath => config_path('packagename.php')]);
+        $this->publishes([$configPath => config_path('blog.php')]);
 
-        $this->mergeConfigFrom($configPath, 'packagename');
+        $this->mergeConfigFrom($configPath, 'blog');
     }
 
     private function handleTranslations() {
@@ -62,9 +62,9 @@ class ServiceProvider extends LaravelServiceProvider {
 
     private function handleViews() {
 
-        $this->loadViewsFrom('packagename', __DIR__.'/../views');
+        $this->loadViewsFrom( __DIR__.'/../views','blog');
 
-        $this->publishes([__DIR__.'/../views' => base_path('resources/views/vendor/packagename')]);
+        //$this->publishes([__DIR__.'/../views' => base_path('resources/views/vendor/packagename')]);
     }
 
     private function handleMigrations() {
