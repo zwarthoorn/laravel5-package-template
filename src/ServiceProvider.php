@@ -1,4 +1,4 @@
-<?php namespace Zwarthoorn\Blog;
+<?php namespace Zwarthoorn\Catagory;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
