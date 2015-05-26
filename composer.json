@@ -1,6 +1,6 @@
 {
-  "name": "zwarthoorn/blog",
-  "description": "blog module",
+  "name": "zwarthoorn/catagory",
+  "description": "Catagory module",
   "keywords": [],
   "license": "MIT",
   "authors": [
@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Zwarthoorn\\Blog\\": "src/"
+      "Zwarthoorn\\Catagory\\": "src/"
     }
   },
   "minimum-stability": "dev"
